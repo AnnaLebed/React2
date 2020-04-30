@@ -1,14 +1,13 @@
 import React from 'react';
 
 
-export default class Header extends React.Component {
+class Header extends React.Component {
   constructor(props){
   super();
   // console.log("Constructor");
   }
 
   componentDidMount(){
-    
     alert("I am alive!")
     // console.log("Mounted");
   }
@@ -19,3 +18,4 @@ export default class Header extends React.Component {
 }
 
 
+export default Header;
